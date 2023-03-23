@@ -1,11 +1,11 @@
 :root {
     --dark-color-title: #2E2F42;
-    --dark-color-text: #434455;
     --background-color-dark: #2E2F42;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
 
 .list {
@@ -57,7 +57,7 @@ body {
 }
 
 .adress-link {
-    color: var(--dark-color-text);
+    color: #434455;
 }
 
 
@@ -97,7 +97,7 @@ body {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: var(--dark-color-text);
+    color: #434455;
 }
 
 /* -----------------------ACTIVITY-------------------------- */
@@ -132,7 +132,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-color-text);
+    color: #434455;
 }
 /* -----------------------FOOTER-------------------------- */
 
