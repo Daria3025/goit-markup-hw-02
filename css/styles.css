@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #E5E5E5;;
 }
 
 .list {
@@ -112,6 +113,9 @@ body {
 
 /* -----------------------TEAM-------------------------- */
 
+.team {
+    background-color: #F4F4FD;
+}
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -154,4 +158,43 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+/* -----------------------FOOTER-------------------------- */
+
+.buttons-list {
+}
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;;
+}
+
+.portfolio-btn:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #404BBF;;
+}
+
+.ptotfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color-title);
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
