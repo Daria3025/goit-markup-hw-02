@@ -6,7 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #E5E5E5;;
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -30,11 +30,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42; 
+    color: #4d5ae5; 
 }
 
 .logo-half {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-menu {
@@ -45,8 +45,22 @@ body {
     color: #2E2F42;;
 }
 
+.header-menu:hover,
+.header-menu:focus {
+    color: #404bbf;
+}
+
 .header-link {
     color: var(--dark-color-title);
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #404bbf;
 }
 
 .header-contacts-list {
@@ -175,7 +189,8 @@ body {
     background-color: #F4F4FD;;
 }
 
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
