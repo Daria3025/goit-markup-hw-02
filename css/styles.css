@@ -33,7 +33,7 @@ body {
     color: #4d5ae5; 
 }
 
-.logo-half {
+.logo-half-header {
     color: #2E2F42;
 }
 
@@ -188,13 +188,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: #4D5AE5;
 }
 
-/* -----------------------FOOTER-------------------------- */
-
-.buttons-list {
+.logo-half-footer {
+    color: #F4F4FD;;
 }
+
+/* -----------------------PORTFOLIO-------------------------- */
+
+
 .portfolio-btn {
     font-weight: 500;
     font-size: 16px;
