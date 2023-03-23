@@ -58,17 +58,17 @@ body {
     font-style: normal;
 }
 
-.contacts:hover,
-.contacts:focus {
-    color: #404bbf;
-}
-
 .header-contacts-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.header-contacts-list:hover,
+.header-contacts-list:focus {
+    color: #404bbf;
 }
 
 .adress-link {
