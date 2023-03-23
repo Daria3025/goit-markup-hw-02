@@ -95,7 +95,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -134,6 +134,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark-color-title);
+    text-align: center;
 }
 
 /* -----------------------TEAM-------------------------- */
@@ -147,6 +148,11 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark-color-title);
+    text-align: center;
+}
+
+.team-list {
+    background-color: #FFFFFF;
 }
 
 .team-subtitle {
