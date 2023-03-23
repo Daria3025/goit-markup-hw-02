@@ -45,8 +45,8 @@ body {
     color: #2E2F42;;
 }
 
-.header-menu:hover,
-.header-menu:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -66,13 +66,13 @@ body {
     color: #434455;
 }
 
-.header-contacts-list:hover,
-.header-contacts-list:focus {
-    color: #404bbf;
-}
-
 .adress-link {
     color: #434455;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: #404bbf;
 }
 
 
