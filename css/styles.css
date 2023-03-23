@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -80,6 +80,7 @@ body {
 
 .hero {
     background-color: var(--background-color-dark);
+    
 }
 
 .hero-title {
@@ -87,15 +88,25 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.92;
+    line-height: 1.5
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    background-color: #4D5AE5;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+
 
 /* -----------------------ABOUT-------------------------- */
 
